@@ -122,7 +122,7 @@ public class AnnotationParameterNameDiscoverer implements ParameterNameDiscovere
 				return lookupParameterNames(METHOD_METHODPARAM_FACTORY, intrfcMethod);
 			}
 		}
-		return paramNames;
+		return null;
 	}
 
 	/*
